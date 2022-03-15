@@ -18,6 +18,11 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 nvm install 14.4.0
 echo "Successfully Installed NVM and Nodejs"
 
+# Or Use Node Source
+# curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+# sudo apt-get install -y nodejs
+# echo "Successfully Installed Nodejs"
+
 ###### INSTALL AND START NGINX
 sudo apt-get install nginx -y
 echo "Nginx Installed Successfully!"
